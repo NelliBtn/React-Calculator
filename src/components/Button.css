@@ -1,14 +1,14 @@
 button {
   border: none;
-  background-color: #C4C4C4;
-  color: #682DB4;
+  background-color: #4C0B80;
+  color: #FFFFFF;
   font-weight: bold;
   font-size: 26px;
   border-radius: 10px;
 }
 
 button:hover {
-  background-color: #F0E7F4;
+  background-color: #BC80D8;
 }
 
 .long-btn {
