@@ -4,8 +4,18 @@
   padding: 5% 10%;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
-  font-weight: bold;
+}
 
+.prev-operrand {
+  margin: 3px;
+  font-size: 26px;
+  color: #B5B5B5;
+}
+
+.curr-operrand {
+  margin: 3px;
+  font-weight: bold;
 }
