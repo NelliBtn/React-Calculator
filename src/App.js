@@ -1,6 +1,7 @@
 import './App.css';
 import Screen from './components/Screen';
 import Buttons from './components/Buttons';
+import Button from './components/Button';
 
 function App() {
   const curr_operrand = 0;
@@ -14,11 +15,13 @@ function App() {
     [7, 8, 9, '*'],
     ['DEL', 0, '=']
   ];
-  
+
   return (
     <div className="App">
       <Screen prev_operrand={prev_operrand} curr_operrand={curr_operrand} operator={operator}/>
-      <Buttons />
+      <Buttons>
+        <Button />
+      </Buttons>
     </div>
   );
 }
