@@ -3,4 +3,14 @@ button {
   background-color: #C4C4C4;
   color: #682DB4;
   font-weight: bold;
+  font-size: 26px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #F0E7F4;
+}
+
+.long-btn {
+  grid-column: 1 / 3;
 }
