@@ -14,7 +14,8 @@ export default function Buttons({ setCurrOperrand, curr_operrand, operator, setO
   // EDGE CASES TO CONSIDER
   // no more than 1 zero before the dot . (ends up in error)
   // no more than 12 chars OR text-wrap
-  
+  // if starts with dot . auto add 0 in front
+
 
   const handleClick = (e) => {
     e.preventDefault();
