@@ -1,3 +1,5 @@
+![Simple Calculator built with React](https://github.com/NelliBtn/React-Calculator/blob/main/public/gif.gif?raw=true "Optional title")
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
